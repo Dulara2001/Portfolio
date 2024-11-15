@@ -12,7 +12,7 @@ export const ABOUT_TEXT = `👋 Hello! I'm James Smith, a dedicated student 🎓
 export const EXPERIENCES = [
   {
     year: "2023 Dec - 2024 Jun",
-    role: "Database Administrator",
+    role: "Database Engineer",
     company: " Mobitel(Pvt) Ltd",
     description: `As for the goals and purpose of SLT-MOBITEL for the internship program, it was to give practical, hands-on experience in database administration and improve the interns’ technical skills and knowledge in the field. The internship was expected to help ease the day-to-day functioning of the Information Systems Division through interns’ skills in handling routine tasks and problemsolving. `,
     technologies: ["Sql", "Oracle", "VNCViewer", "Mobaxterm"],
