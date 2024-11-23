@@ -41,6 +41,7 @@ export const PROJECTS = [
     description:
       "Used data mining and machine learning techniques, effectively selecting and cleaning the dataset to ensure accurate results.Designed a user-friendly software interface for easy interaction with the prediction system, enhancing its accessibility and usability.",
     technologies: ["Tensorflow", "Streamlit", "MachineLearning", "DataMining"],
+    link: "https://drive.google.com/file/d/1VWmuWi6ltyc-Ua2s4s2uYgdxP9TybxtY/view?usp=sharing"
   },
   {
     title: "Chatbot for Online Customer Support in E-commerce",
@@ -48,6 +49,7 @@ export const PROJECTS = [
     description:
       "Developed a custom framework for enhancing chatbot effectiveness tailored to a small clothing business.Led the development of a PyTorch-based model, enabling the chatbot to handle diverse client inquiries.",
     technologies: ["Data Analytics", "Machine Learning", "Data Mining"],
+    link: "https://drive.google.com/file/d/14qaZ3sS6U-xaZ-5iis7STCN8hjSTCWh1/view?usp=sharing"
   },
   {
     title: "Smart Home IoT System for Temperature Management",
