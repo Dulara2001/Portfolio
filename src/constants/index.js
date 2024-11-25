@@ -41,7 +41,8 @@ export const PROJECTS = [
     description:
       "Used data mining and machine learning techniques, effectively selecting and cleaning the dataset to ensure accurate results.Designed a user-friendly software interface for easy interaction with the prediction system, enhancing its accessibility and usability.",
     technologies: ["Tensorflow", "Streamlit", "MachineLearning", "DataMining"],
-    link: "https://drive.google.com/file/d/1VWmuWi6ltyc-Ua2s4s2uYgdxP9TybxtY/view?usp=sharing"
+    link: "https://drive.google.com/file/d/1VWmuWi6ltyc-Ua2s4s2uYgdxP9TybxtY/view?usp=sharing",
+    usedemolink:"https://diabetespredictionsystem-sliit-fdmproject.streamlit.app/"
   },
   {
     title: "Chatbot for Online Customer Support in E-commerce",

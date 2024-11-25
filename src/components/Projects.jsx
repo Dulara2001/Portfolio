@@ -50,6 +50,18 @@ const Projects = () => {
                                     View Demo
                                 </a>
                             )}
+                            <div>
+                            {project.usedemolink && (
+                                <a 
+                                    href={project.usedemolink} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className="text-purple-300 hover:text-green-400 underline">
+                                    Use Demo
+                                </a>
+                            )}
+                            </div>
+                            
                         </motion.div>
                     </div>
                 ))}
