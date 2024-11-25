@@ -11,7 +11,15 @@ const Projects = () => {
                 className="my-20 text-center text-4xl">
                 Projects
             </motion.h2>
-            <div>
+            {/* clickable GitHub link */}
+            <div className="mt-8 text-center text-neutral-200">
+                <p>You can find all the source codes and additional details on <a 
+                    href="https://github.com/Dulara2001" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-purple-300 hover:text-green-400 underline">GitHub</a>. Please visit.</p>
+            </div>
+            <div className="mt-10">
                 {PROJECTS.map((project, index) => (
                     <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
                         <motion.div 
