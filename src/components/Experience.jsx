@@ -51,6 +51,14 @@ const Experience = () => {
                                     className="text-purple-300 hover:text-green-400 underline">
                                     View Service Letter
                                 </a>
+                            )}{experience.Link && (
+                                <a 
+                                    href={experience.Link} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className="text-purple-300 hover:text-green-400 underline">
+                                    Visit Channel
+                                </a>
                             )}
                         </motion.div>
                     </div>

@@ -18,6 +18,14 @@ export const EXPERIENCES = [
     technologies: ["Sql", "Oracle", "VNCViewer", "Mobaxterm"],
     downloadLink: "https://drive.google.com/file/d/175rSA_1Pn_suh_Vzy5ZShi79fyUMzT2e/view?usp=sharing"
   },
+  {
+    year: "2024 Dec - Present",
+    role: "Content Creator",
+    company: " YouTube Channel - SmartSlides",
+    description: `SmartSlides is a YouTube channel dedicated to simplifying complex topics in AI, machine learning, Data Science and other academic subjects. The channel aims to make learning accessible and efficient for students and professionals alike. `,
+    technologies: ["AI","ML","Data Science"],
+    Link: "https://www.youtube.com/@SmartSlides-DS"
+  },
 ];
 
 

@@ -15,7 +15,7 @@ const About = () => {
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2"> {/* Adjusted width to make sure it's centered */}
                     <p className="text-gray-300 mt-4">
-                        👋 Hello! I'm Dulara Rathnayake, a dedicated student 🎓 pursuing a degree in Data Science. My journey in technology and analytics has been both exciting and enlightening.
+                        👋 Hello! I'm Dulara Rathnayake, a passionate graduate 🎓 with a degree in Data Science. My journey in technology and analytics has been both exciting and enlightening.
                     </p>
                     <p className="text-gray-300 mt-4">
                         🔍 Throughout my academic path, my interest in the AI and machine learning domain has blossomed. I'm fascinated by its potential for groundbreaking innovation and its transformative impact across industries.
@@ -27,7 +27,7 @@ const About = () => {
                         🏀 Beyond academics, I find immense joy in basketball. The synergy, tactics, and exhilaration of the game resonate deeply with me.
                     </p>
                     <p className="text-gray-300 mt-4">
-                        💼 I'm eagerly looking forward to connecting with professionals in the AI and Data Science community, exchanging ideas, and exploring opportunities for collaboration and growth.
+                        💼 I'm eagerly looking forward to connecting with professionals in the AI/ML and Data Science community, exchanging ideas, and exploring opportunities for collaboration and growth.
                     </p>
                 </motion.div>
             </div>

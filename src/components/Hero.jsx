@@ -30,7 +30,7 @@ const Hero = () => {
                         animate="visible"
                         className="bg-gradient-to-r from-pink-300 Ovia-slate-500
                         to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-                            Data Science Undergraduate
+                            Data Science Graduate at SLIIT
                         </motion.span>
                         <motion.p 
                         variants={container(1)}
@@ -47,7 +47,7 @@ const Hero = () => {
                     initial={{ x: 100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 1.2}}
-                    style={{ width: '500px', height: 'auto' }} 
+                    style={{ width: '500px', height: '550px' }} 
                     src={profilePic} alt="Dulara Rathnayake" />
                 </div>
                 </div>
