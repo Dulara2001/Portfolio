@@ -49,7 +49,7 @@ export const PROJECTS = [
     description:
       "Used data mining and machine learning techniques, effectively selecting and cleaning the dataset to ensure accurate results.Designed a user-friendly software interface for easy interaction with the prediction system, enhancing its accessibility and usability.",
     technologies: ["Tensorflow", "Streamlit", "MachineLearning", "DataMining"],
-    link: "https://drive.google.com/file/d/1VWmuWi6ltyc-Ua2s4s2uYgdxP9TybxtY/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1m3UVSh-ypqR3s9hit5CMXomp0ffEmIb5/view?usp=sharing",
     usedemolink:"https://diabetespredictionsystem-sliit-fdmproject.streamlit.app/"
   },
   {
@@ -58,7 +58,7 @@ export const PROJECTS = [
     description:
       "Developed a custom framework for enhancing chatbot effectiveness tailored to a small clothing business.Led the development of a PyTorch-based model, enabling the chatbot to handle diverse client inquiries.",
     technologies: ["Data Analytics", "Machine Learning", "Data Mining"],
-    link: "https://drive.google.com/file/d/14qaZ3sS6U-xaZ-5iis7STCN8hjSTCWh1/view?usp=sharing"
+    link: "https://drive.google.com/file/d/1_RSQcLxkKVMpw2bAsT_-C6HBFVnHGAQp/view?usp=sharing"
   },
   {
     title: "Smart Home IoT System for Temperature Management",
@@ -66,7 +66,7 @@ export const PROJECTS = [
     description:
       "smart home system that automatically manages indoor temperature based on the Heat Index (HI) calculated from real-time temperature and humidity data. The project involved integrating sensors for data collection, utilizing MQTT protocols for communication, and implementing an ARIMA model to predict historical and future HI values. ",
     technologies: ["Iot","Data Analytics", "Machine Learning", "Data Mining"],
-    link: "https://drive.google.com/file/d/1v4iRNhsKFiLxRUcpIKwGafjgqwKgiEzB/view?usp=drive_link"
+    link: "https://drive.google.com/file/d/1Nb1maWHzOrFK5vONuqPDB5KDEbqugR_7/view?usp=sharing"
   },
   {
     title: "PowerBI Dashboard Design Project",
