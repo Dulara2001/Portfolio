@@ -2,6 +2,9 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.jpeg";
+import project7 from "../assets/projects/project-7.png";
 import Certificate1 from "../assets/certificates/certificate1.jpg";
 import Certificate2 from "../assets/certificates/certificate2.jpg";
 
@@ -44,6 +47,14 @@ export const RESEARCH = [
 
 export const PROJECTS = [
   {
+    title: "Email Generator Tool",
+    image: project5,
+    description:
+      "An innovative tool to streamline personalized cold email outreach. This tool is designed to help professionals and services companies connect with potential employers or clients more effectively.",
+    technologies: ["Llma", "LangChain", "GROQ", "Streamlit"],
+    link: "https://drive.google.com/file/d/121cdfG53rcnjJ_vE-zxiIdAyv6lwoLTO/view?usp=sharing"
+  },
+  {
     title: "Diabetes Prediction System",
     image: project4,
     description:
@@ -62,7 +73,7 @@ export const PROJECTS = [
   },
   {
     title: "Smart Home IoT System for Temperature Management",
-    image: project1,
+    image: project6,
     description:
       "smart home system that automatically manages indoor temperature based on the Heat Index (HI) calculated from real-time temperature and humidity data. The project involved integrating sensors for data collection, utilizing MQTT protocols for communication, and implementing an ARIMA model to predict historical and future HI values. ",
     technologies: ["Iot","Data Analytics", "Machine Learning", "Data Mining"],
@@ -79,7 +90,7 @@ export const PROJECTS = [
   
   {
     title: " Travel & Tourism Management System",
-    image: project3,
+    image: project7,
     description:
       "Travel and tourism management system to book tours from anywhere in the world through a single dynamic website that helps users to know all locations and tour details on a single website.this web application helps a tourist who is planning to travel to which places he will travel, whether there are accommodation facilities around those places, whether they are safe, and which transport will be used as a solution for the journey.",
     technologies: ["MERN stack"],
