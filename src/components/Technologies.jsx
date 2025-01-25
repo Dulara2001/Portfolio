@@ -1,6 +1,8 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { DiPython } from "react-icons/di";
 import { SiTensorflow } from "react-icons/si";
+import { SiOpenai } from "react-icons/si";
+import { SiPytorch } from "react-icons/si";
 import { SiStreamlit } from "react-icons/si";
 import { SiOpencv } from "react-icons/si";
 import { SiPowerbi } from "react-icons/si";
@@ -77,6 +79,30 @@ const Technologies = () => {
                         <SiTensorflow className="text-7xl text-orange-400" />
                     </div>
                     <p className="text-center mt-2">TensorFlow</p>
+                </motion.div>
+
+                {/* LLM */}
+                <motion.div 
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="flex flex-col items-center">
+                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                        <SiOpenai className="text-7xl text-blue-400" />
+                    </div>
+                    <p className="text-center mt-2">LLM</p>
+                </motion.div>
+
+                {/* NLP */}
+                <motion.div 
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="flex flex-col items-center">
+                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                        <SiPytorch className="text-7xl text-orange-400" />
+                    </div>
+                    <p className="text-center mt-2">NLP</p>
                 </motion.div>
 
                 {/* Streamlit */}
