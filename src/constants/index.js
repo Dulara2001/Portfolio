@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.jpeg";
 import project7 from "../assets/projects/project-7.png";
+import project8 from "../assets/projects/project-8.jpg";
 import Certificate1 from "../assets/certificates/certificate1.jpg";
 import Certificate2 from "../assets/certificates/certificate2.jpg";
 
@@ -46,6 +47,14 @@ export const RESEARCH = [
 
 
 export const PROJECTS = [
+  {
+    title: "LLM application for interact with PDF",
+    image: project8,
+    description:
+      "LLM application to interact with multiple PDF documents. The system uses FAISS vector embeddings to index and retrieve information, allowing users to upload PDFs, ask questions, and get accurate answers quickly and efficiently.",
+    technologies: ["Google Gemini pro", "LangChain", "FAISS", "Streamlit"],
+    link: "https://drive.google.com/file/d/1YBuxinEQnDV8rLmrChhmdVIbwKQ3PcUT/view?usp=sharing"
+  },
   {
     title: "Email Generator Tool",
     image: project5,

@@ -19,7 +19,15 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="text-purple-300 hover:text-green-400 underline">GitHub</a>. Please visit.</p>
             </div>
-            <div className="mt-10">
+            <div 
+                className="mt-10" 
+                style={{
+                    maxHeight: 'calc(5 * 16rem)',
+                    overflowY: 'auto',
+                    scrollbarWidth: 'thin',
+                    scrollbarColor: '#6b46c1 #2d3748',
+                }}
+            >
                 {PROJECTS.map((project, index) => (
                     <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
                         <motion.div 
