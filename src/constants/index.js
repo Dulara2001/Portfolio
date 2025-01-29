@@ -6,6 +6,7 @@ import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.jpeg";
 import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.jpg";
+import project9 from "../assets/projects/project-9.png";
 import Certificate1 from "../assets/certificates/certificate1.jpg";
 import Certificate2 from "../assets/certificates/certificate2.jpg";
 
@@ -47,6 +48,14 @@ export const RESEARCH = [
 
 
 export const PROJECTS = [
+  {
+    title: "Financial Agent with PhiData",
+    image: project9,
+    description:
+      "AI-powered agents capable of retrieving financial data and performing web searches.Retrieves stock market data, analyst recommendations, fundamentals, and company news.Fetches relevant online information with source citations.",
+    technologies: ["PhiData", "GROQ", "DuckDuckGo","YFinance", "Streamlit"],
+    link: "https://drive.google.com/file/d/15xkA6xYzMHXn8nMoYgQAlRS30R57Gt3m/view?usp=sharing"
+  },
   {
     title: "LLM application for interact with PDF",
     image: project8,
