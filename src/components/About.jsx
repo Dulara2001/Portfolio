@@ -15,19 +15,19 @@ const About = () => {
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2"> {/* Adjusted width to make sure it's centered */}
                     <p className="text-gray-300 mt-4">
-                        👋 Hello! I'm Dulara Rathnayake, a passionate graduate 🎓 with a degree in Data Science. My journey in technology and analytics has been both exciting and enlightening.
+                        👋 Hi! I'm Dulara Rathnayake, a final-year student specializing in Data Science, graduating in 2024.
                     </p>
                     <p className="text-gray-300 mt-4">
-                        🔍 Throughout my academic path, my interest in the AI and machine learning domain has blossomed. I'm fascinated by its potential for groundbreaking innovation and its transformative impact across industries.
+                        🔍 Over the years, I've developed a strong interest in Artificial Intelligence and Machine Learning. I'm particularly fascinated by how these technologies can drive innovation and create meaningful solutions across various industries.
                     </p>
                     <p className="text-gray-300 mt-4">
-                        🚀 My ambition is to delve deeper into the realm of AI and Machine Learning, contributing my skills and knowledge to pioneering projects that drive data-driven insights to solve intricate challenges and enhance livelihoods.
+                        🚀 My goal is to deepen my knowledge in AI and ML, contribute to impactful projects, and use data-driven insights to solve complex challenges and improve everyday life. I love working on projects that push the boundaries of technology and make a real difference.
                     </p>
                     <p className="text-gray-300 mt-4">
-                        🏀 Beyond academics, I find immense joy in basketball. The synergy, tactics, and exhilaration of the game resonate deeply with me.
+                        🏀 Outside of academics, I have a great passion for basketball. The teamwork, strategy, and energy of the game inspire me, and I enjoy the balance it brings to my life.
                     </p>
                     <p className="text-gray-300 mt-4">
-                        💼 I'm eagerly looking forward to connecting with professionals in the AI/ML and Data Science community, exchanging ideas, and exploring opportunities for collaboration and growth.
+                        💼 I'm always eager to connect with AI and Data Science professionals, exchange ideas, and explore new learning and collaboration opportunities. Let's connect and grow together! 🚀
                     </p>
                 </motion.div>
             </div>
