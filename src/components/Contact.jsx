@@ -1,6 +1,6 @@
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
-import { FaLinkedin, FaGithub, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 
 const Contact = () => {
     return (
@@ -49,13 +49,13 @@ const Contact = () => {
                 </a>
 
                 {/* Instagram Icon with Link */}
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/smartslides.ds/profilecard/?igsh=MWRlendsdjdtYWo0MA==" target="_blank" rel="noopener noreferrer">
                     <FaInstagram />
                 </a>
 
-                {/* TikTok Icon with Link */}
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <FaTiktok />
+                {/* Youtube Icon with Link */}
+                <a href="https://www.youtube.com/@SmartSlides-DS" target="_blank" rel="noopener noreferrer">
+                    <FaYoutube />
                 </a>
             </div>
         </div>

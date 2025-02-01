@@ -10,7 +10,7 @@ import project9 from "../assets/projects/project-9.png";
 import Certificate1 from "../assets/certificates/certificate1.jpg";
 import Certificate2 from "../assets/certificates/certificate2.jpg";
 
-export const HERO_CONTENT = `I am hardworking, dedicated person that chases dreams and goals in my life. I am very passionate and interested in the field of Machine Learning Engineering, Data Scientist, Data Engineering and learning and being thorough with new technical and non-technical skills.`;
+export const HERO_CONTENT = `I am hardworking, dedicated person that chases dreams and goals in my life. I am very passionate and interested in the field of Artificial Intelligence, Machine Learning, Data Science and learning and being thorough with new technical and non-technical skills.`;
 
 export const ABOUT_TEXT = `👋 Hi! I'm Dulara Rathnayake, a final-year student specializing in Data Science, graduating in 2024.🔍 Over the years, I've developed a strong interest in Artificial Intelligence and Machine Learning. I'm particularly fascinated by how these technologies can drive innovation and create meaningful solutions across various industries.🚀 My goal is to deepen my knowledge in AI and ML, contribute to impactful projects, and use data-driven insights to solve complex challenges and improve everyday life. I love working on projects that push the boundaries of technology and make a real difference.🏀 Outside of academics, I have a great passion for basketball. The teamwork, strategy, and energy of the game inspire me, and I enjoy the balance it brings to my life.💼 I'm always eager to connect with AI and Data Science professionals, exchange ideas, and explore new learning and collaboration opportunities. Let's connect and grow together! 🚀`;
 
@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     year: "2023 Dec - 2024 Jun",
     role: "intern - junior Database Administrator",
     company: " Mobitel(Pvt) Ltd",
-    description: `As for the goals and purpose of SLT-MOBITEL for the internship program, it was to give practical, hands-on experience in database administration and improve the interns’ technical skills and knowledge in the field. The internship was expected to help ease the day-to-day functioning of the Information Systems Division through interns’ skills in handling routine tasks and problemsolving. `,
+    description: `As for the goals and purpose of SLT-MOBITEL for the internship program, it was to give practical, hands-on experience in database administration and improve the interns' technical skills and knowledge in the field. The internship was expected to help ease the day-to-day functioning of the Information Systems Division through interns’ skills in handling routine tasks and problemsolving. `,
     technologies: ["Sql", "Oracle", "VNCViewer", "Mobaxterm"],
     downloadLink: "https://drive.google.com/file/d/175rSA_1Pn_suh_Vzy5ZShi79fyUMzT2e/view?usp=sharing"
   },
