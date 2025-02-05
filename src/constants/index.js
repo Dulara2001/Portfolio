@@ -7,6 +7,7 @@ import project6 from "../assets/projects/project-6.jpeg";
 import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.jpg";
 import project9 from "../assets/projects/project-9.png";
+import project10 from "../assets/projects/project-10.jpeg";
 import Certificate1 from "../assets/certificates/certificate1.jpg";
 import Certificate2 from "../assets/certificates/certificate2.jpg";
 
@@ -48,6 +49,14 @@ export const RESEARCH = [
 
 
 export const PROJECTS = [
+  {
+    title: "Smart Weather Analysis Dashboard with chatbot",
+    image: project10,
+    description:
+      "The Smart Weather Analysis Dashboard is a comprehensive web application designed to provide historical weather data analysis, future weather predictions, and an interactive chatbot for answering weather-related queries.",
+    technologies: ["Prophet", "Plotly", "Open-Meteo","Pandas","NumPy", "Streamlit"],
+    link: "https://drive.google.com/file/d/1WSZyRoDpPAiFGICWjPh8ssmkM_bOyicr/view?usp=sharing"
+  },
   {
     title: "Financial Agent with PhiData",
     image: project9,
