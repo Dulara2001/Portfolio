@@ -8,6 +8,7 @@ import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.jpg";
 import project9 from "../assets/projects/project-9.png";
 import project10 from "../assets/projects/project-10.jpeg";
+import project11 from "../assets/projects/project-11.jpeg";
 import Certificate1 from "../assets/certificates/certificate1.jpg";
 import Certificate2 from "../assets/certificates/certificate2.jpg";
 
@@ -49,6 +50,14 @@ export const RESEARCH = [
 
 
 export const PROJECTS = [
+  {
+    title: "AI-Powered Travel Planner Agent",
+    image: project11,
+    description:
+      "Designed to help tourists and travelers create personalized day trip itineraries for cities in Sri Lanka. Powered by advanced AI, this agent makes trip planning seamless, efficient, and fun!",
+    technologies: ["Groq", "Llama 3.3-70b", "Python", "Streamlit"],
+    link: "https://drive.google.com/file/d/1mAq5mLA3L6m2v64-T6Q5ACrUwrDY4TH3/view?usp=sharing"
+  },
   {
     title: "Smart Weather Analysis Dashboard with chatbot",
     image: project10,
