@@ -15,7 +15,7 @@ const About = () => {
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2"> {/* Adjusted width to make sure it's centered */}
                     <p className="text-gray-300 mt-4">
-                        👋 Hi! I'm Dulara Rathnayake, a final-year student specializing in Data Science, graduating in 2024.
+                        👋 Hi! I'm Dulara Rathnayake, Fresh graduate in Data Science with experience in AI, machine learning, data science, and computervision.
                     </p>
                     <p className="text-gray-300 mt-4">
                         🔍 Over the years, I've developed a strong interest in Artificial Intelligence and Machine Learning. I'm particularly fascinated by how these technologies can drive innovation and create meaningful solutions across various industries.
