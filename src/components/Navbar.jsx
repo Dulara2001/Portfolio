@@ -3,14 +3,6 @@ import { useState } from "react";
 const Navbar = () => {
     const [hoveredLink, setHoveredLink] = useState(null);
 
-    const handleMouseEnter = (index) => {
-        setHoveredLink(index);
-    };
-
-    const handleMouseLeave = () => {
-        setHoveredLink(null);
-    };
-
     const navItems = [
         { text: "Home", link: "#home" },
         { text: "About Me", link: "#about" },
@@ -24,66 +16,31 @@ const Navbar = () => {
 
     return (
         <>
-            {/* Navbar */}
-            <nav style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",  // Only this line for justifyContent
-                padding: "1rem 2rem",
-                position: "fixed",
-                top: 0,
-                left: 0,
-                width: "100%",
-                zIndex: 1000,
-                backgroundColor: "rgba(50, 50, 50, 0.8)", // Darker gray with opacity
-                boxShadow: "0 2px 10px rgba(0,0,0,0.2)", // Stronger shadow for better depth
-                color: "#f5f5f5", // Light text color for contrast
-                fontFamily: "'Arial', sans-serif",
-                textTransform: "uppercase",
-                letterSpacing: "0.05rem",
-                flexDirection: "row" // This line is important for horizontal layout
-            }}>
-                {/* Navbar Items */}
-                <div style={{
-                    display: 'flex',
-                    flexGrow: 1,
-                    justifyContent: 'flex-end',
-                    alignItems: 'center',
-                    gap: '1.5rem',  // Reduced gap between items
-                    fontSize: '0.9rem',  // Decreased font size
-                    fontWeight: 'bold',
-                    transition: 'all 0.3s ease',
-                    letterSpacing: '0.03rem',  // Adjusted letter spacing for better appearance
-                }}>
-                    {/* Navbar Links */}
-                    {navItems.map((item, index) => (
-                        <a
-                            key={index}
-                            href={item.link}
-                            style={{
-                                textDecoration: 'none',
-                                color: hoveredLink === index ? '#ff6347' : '#f5f5f5',  // Tomato color on hover
-                                transition: 'color 0.3s, text-shadow 0.3s, transform 0.3s',
-                                padding: '0.5rem 1rem',
-                                textTransform: 'uppercase',  // Ensures all navbar links are uppercase
-                                fontWeight: 'bold',
-                                letterSpacing: '0.05rem',  // Small spacing to improve readability
-                                borderRadius: '5px',  // Slightly rounded corners for each item
-                                cursor: 'pointer',  // Makes the cursor a pointer on hover
-                                textShadow: hoveredLink === index ? '0 0 5px rgba(255, 255, 255, 0.6)' : 'none',  // Add glow effect
-                                transform: hoveredLink === index ? 'scale(1.1)' : 'none',  // Slightly enlarge the item on hover
-                            }}
-                            onMouseEnter={() => handleMouseEnter(index)}
-                            onMouseLeave={handleMouseLeave}
-                        >
-                            {item.text}
-                        </a>
-                    ))}
+            <nav className="fixed top-0 left-0 w-full z-50 bg-opacity-70 backdrop-blur-lg bg-gray-900 shadow-md">
+                <div className="container mx-auto px-6 py-4 flex justify-end items-center">
+                    {/* Navbar Items aligned to the right */}
+                    <div className="flex space-x-8 text-lg font-medium">
+                        {navItems.map((item, index) => (
+                            <a
+                                key={index}
+                                href={item.link}
+                                className={`relative transition-all duration-300 ease-in-out text-gray-300
+                                    group hover:text-white ${hoveredLink === index ? "text-white" : ""}
+                                `}
+                                onMouseEnter={() => setHoveredLink(index)}
+                                onMouseLeave={() => setHoveredLink(null)}
+                            >
+                                {item.text}
+                                {/* Glowing Effect on Hover */}
+                                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 group-hover:w-full transition-all duration-300 ease-in-out"></span>
+                            </a>
+                        ))}
+                    </div>
                 </div>
             </nav>
 
-            {/* Spacer to avoid content overlap */}
-            <div style={{ height: '6rem' }}></div>
+            {/* Spacer to prevent content overlap */}
+            <div className="h-20"></div>
         </>
     );
 };
