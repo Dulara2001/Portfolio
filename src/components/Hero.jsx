@@ -65,7 +65,7 @@ const Hero = () => {
                                 borderRadius: '60%',
                                 objectFit: 'cover'
                             }}
-                            src={displayPic}
+                            src={profilePic}
                             alt="Dulara Rathnayake"
                         />
                     </div>
