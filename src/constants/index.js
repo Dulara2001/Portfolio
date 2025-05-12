@@ -11,6 +11,7 @@ import project10 from "../assets/projects/project-10.jpeg";
 import project11 from "../assets/projects/project-11.jpeg";
 import Certificate1 from "../assets/certificates/certificate1.jpg";
 import Certificate2 from "../assets/certificates/certificate2.jpg";
+import Certificate3 from "../assets/certificates/certificate3.jpg";
 
 export const HERO_CONTENT = `I am hardworking, dedicated person that chases dreams and goals in my life. I am very passionate and interested in the field of Artificial Intelligence, Machine Learning, Data Science and learning and being thorough with new technical and non-technical skills.`;
 
@@ -146,6 +147,11 @@ export const CERTIFICATES = [
     id: 2,
     image: Certificate2,
     title: 'Certificate 2'
+  },
+  {
+    id: 3,
+    image: Certificate3,
+    title: 'Certificate 3'
   },
 ];
 
