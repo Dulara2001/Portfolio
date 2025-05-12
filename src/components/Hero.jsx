@@ -42,7 +42,7 @@ const Hero = () => {
 
                         {/* Download Resume Button */}
                         <motion.a
-                            href="https://drive.google.com/file/d/1ez4RAKV8FWffrj_tfTORn0MZieHIGib9/view?usp=sharing" 
+                            href="https://drive.google.com/file/d/14Uswn_-PUf3ONFbbLRQvTo9szPV_CMzY/view?usp=sharing" 
                             target="_blank" // Opens in a new tab
                             rel="noopener noreferrer" // Security best practice
                             variants={container(1.5)}
