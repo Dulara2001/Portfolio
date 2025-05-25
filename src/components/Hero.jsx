@@ -41,16 +41,28 @@ const Hero = () => {
                         </motion.p>
 
                         {/* Download Resume Button */}
-                        <motion.a
-                            href="https://drive.google.com/file/d/14Uswn_-PUf3ONFbbLRQvTo9szPV_CMzY/view?usp=sharing" 
-                            target="_blank" // Opens in a new tab
-                            rel="noopener noreferrer" // Security best practice
+                        <motion.div
                             variants={container(1.5)}
                             initial="hidden"
                             animate="visible"
-                            className="mt-6 inline-block px-8 py-3 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-white font-semibold text-lg rounded-lg hover:bg-gradient-to-l hover:from-purple-500 hover:to-pink-300 transition-all duration-300">
-                            Download Resume
-                        </motion.a>
+                            className="mt-6 flex flex-wrap gap-4"
+                        >
+                            <a
+                                href="https://drive.google.com/file/d/14Uswn_-PUf3ONFbbLRQvTo9szPV_CMzY/view?usp=sharing"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-8 py-3 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-white font-semibold text-lg rounded-lg hover:bg-gradient-to-l hover:from-purple-500 hover:to-pink-300 transition-all duration-300"
+                            >
+                                Download Resume
+                            </a>
+
+                            <a
+                                href="#contact"
+                                className="px-8 py-3 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-white font-semibold text-lg rounded-lg hover:bg-gradient-to-l hover:from-purple-500 hover:to-pink-300 transition-all duration-300"
+                            >
+                                Contact Me
+                            </a>
+                        </motion.div>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
