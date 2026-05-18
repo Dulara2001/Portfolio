@@ -15,9 +15,19 @@ import Certificate3 from "../assets/certificates/certificate3.jpg";
 
 export const HERO_CONTENT = `I am hardworking, dedicated person that chases dreams and goals in my life. I am very passionate and interested in the field of Artificial Intelligence, Machine Learning, Data Science and learning and being thorough with new technical and non-technical skills.`;
 
-export const ABOUT_TEXT = `👋 Hi! I'm Dulara Rathnayake, Fresh graduate in Data Science with experience in AI, machine learning, data science, and computervision.🔍 Over the years, I've developed a strong interest in Artificial Intelligence and Machine Learning. I'm particularly fascinated by how these technologies can drive innovation and create meaningful solutions across various industries.🚀 My goal is to deepen my knowledge in AI and ML, contribute to impactful projects, and use data-driven insights to solve complex challenges and improve everyday life. I love working on projects that push the boundaries of technology and make a real difference.🏀 Outside of academics, I have a great passion for basketball. The teamwork, strategy, and energy of the game inspire me, and I enjoy the balance it brings to my life.💼 I'm always eager to connect with AI and Data Science professionals, exchange ideas, and explore new learning and collaboration opportunities. Let's connect and grow together! 🚀`;
+export const ABOUT_TEXT = `👋 Hi! I'm Dulara Rathnayake, Motivated AI/ML Engineer with hands-on industry experience in designing, fine-tuning, and deploying Large Language Models 
+(LLMs), Retrieval Augmented Generation (RAG) systems, and computer vision pipelines. 🔍 Proven ability to bridge research and 
+production from model training and optimization to FastAPI-based backend integration and cloud deployment on GCP. 🚀 Passionate about building intelligent systems that solve real-world problems, with a strong foundation in Python, deep learning 
+frameworks, and MLOps practices. 🏀 Outside of academics, I have a great passion for basketball. The teamwork, strategy, and energy of the game inspire me, and I enjoy the balance it brings to my life.💼 I'm always eager to connect with AI and Data Science professionals, exchange ideas, and explore new learning and collaboration opportunities. Let's connect and grow together! 🚀`;
 
 export const EXPERIENCES = [
+  {
+    year: "2025 Nov - Present ",
+    role: "intern - AI/ML Engineer",
+    company: " NCINGA(Pte) Ltd",
+    description: `Designed, fine-tuned, and deployed large language models (LLMs) and end-to-end AI/ML pipelines for production use. Built Retrieval-Augmented Generation (RAG) systems by integrating LLMs with enterprise data sources to deliver accurate, context-aware responses. Developed FastAPI-based backend services to expose AI models through REST APIs and WebSockets for enterprise applications.Applied prompt engineering techniques to improve model accuracy, response consistency, and latency across multiple use cases. Conducted research on emerging AI/ML methods and industry trends, producing technical documentation, architecture diagrams, and internal reports. Collaborated with cross-functional teams to translate business requirements into scalable AI-powered solutions. `,
+    technologies: ["Vector DBs", "Docker", "GCP", "Git", "CI/CD"],
+  },
   {
     year: "2023 Dec - 2024 Jun",
     role: "intern - junior Database Administrator",
@@ -27,12 +37,12 @@ export const EXPERIENCES = [
     downloadLink: "https://drive.google.com/file/d/175rSA_1Pn_suh_Vzy5ZShi79fyUMzT2e/view?usp=sharing"
   },
   {
-    year: "2024 Dec - Present",
+    year: "2026 Mar - Present",
     role: "Content Creator",
-    company: " YouTube Channel - SmartSlides",
-    description: `SmartSlides is a YouTube channel dedicated to simplifying complex topics in AI, machine learning, Data Science and other academic subjects. The channel aims to make learning accessible and efficient for students and professionals alike. `,
+    company: " Channel - AI Wistara",
+    description: `AI Wistara is a channel dedicated to explain about AI/ML , Tech Tools and Concepts. The channel aims to make learning accessible and efficient for anyone `,
     technologies: ["AI","ML","Data Science"],
-    Link: "https://www.youtube.com/@SmartSlides-DS"
+    Link: "https://www.youtube.com/@AIWistara"
   },
 ];
 

@@ -13,6 +13,8 @@ import { FaMicrochip } from "react-icons/fa";
 import { SiMicrosoftexcel } from "react-icons/si";
 import { SiMysql } from 'react-icons/si';
 import { SiOracle } from "react-icons/si";
+import { SiDocker } from "react-icons/si";
+import { SiGooglecloud } from "react-icons/si";
 
 import { motion } from "framer-motion";
 
@@ -214,6 +216,34 @@ const Technologies = () => {
                     </div>
                     <p className="text-center mt-2">oracle</p>
                 </motion.div>
+
+
+                {/* docker */}
+                <motion.div 
+                    variants={iconVariants(4)}
+                    initial="initial"
+                    animate="animate"
+                    className="flex flex-col items-center">
+                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                        <SiDocker className="text-7xl text-blue-500" />
+                    </div>
+                    <p className="text-center mt-2">Docker</p>
+                </motion.div>
+
+
+
+                {/* GCP */}
+                <motion.div 
+                    variants={iconVariants(4)}
+                    initial="initial"
+                    animate="animate"
+                    className="flex flex-col items-center">
+                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                        <SiGooglecloud className="text-7xl text-orange-500" />
+                    </div>
+                    <p className="text-center mt-2">GCP</p>
+                </motion.div>
+                
             </motion.div>
         </div>
     );

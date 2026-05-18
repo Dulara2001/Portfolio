@@ -54,7 +54,7 @@ const Contact = () => {
                 </a>
 
                 {/* Youtube Icon with Link */}
-                <a href="https://www.youtube.com/@SmartSlides-DS" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/@AIWistara" target="_blank" rel="noopener noreferrer">
                     <FaYoutube />
                 </a>
             </div>

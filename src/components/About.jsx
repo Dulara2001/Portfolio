@@ -15,13 +15,13 @@ const About = () => {
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2"> {/* Adjusted width to make sure it's centered */}
                     <p className="text-gray-300 mt-4">
-                        👋 Hi! I'm Dulara Rathnayake, Fresh graduate in Data Science with experience in AI, machine learning, data science, and computer vision.
+                        👋 Hi! I'm Dulara Rathnayake, Motivated AI/ML Engineer with hands-on industry experience in designing, fine-tuning, and deploying Large Language Models (LLMs), Retrieval Augmented Generation (RAG) systems, and computer vision pipelines. 
                     </p>
                     <p className="text-gray-300 mt-4">
-                        🔍 Over the years, I've developed a strong interest in Artificial Intelligence and Machine Learning. I'm particularly fascinated by how these technologies can drive innovation and create meaningful solutions across various industries.
+                        🔍  Proven ability to bridge research and production from model training and optimization to FastAPI-based backend integration and cloud deployment on GCP. 
                     </p>
                     <p className="text-gray-300 mt-4">
-                        🚀 My goal is to deepen my knowledge in AI and ML, contribute to impactful projects, and use data-driven insights to solve complex challenges and improve everyday life. I love working on projects that push the boundaries of technology and make a real difference.
+                        🚀 Passionate about building intelligent systems that solve real-world problems, with a strong foundation in Python, deep learning frameworks, and MLOps practices. 
                     </p>
                     <p className="text-gray-300 mt-4">
                         🏀 Outside of academics, I have a great passion for basketball. The teamwork, strategy, and energy of the game inspire me, and I enjoy the balance it brings to my life.
