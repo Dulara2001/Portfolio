@@ -1,18 +1,22 @@
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
+import SectionTag from "./SectionTag";
 
 const Contact = () => {
     return (
         <div id="contact" className="border-b border-neutral-900 pb-20">
-            <motion.h2 
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: -100 }}
-                transition={{ duration: 0.5 }}
-                className="my-10 text-center text-4xl"
-            >
-                Get in Touch
-            </motion.h2>
+            <div className="my-10">
+                <SectionTag index="08" label="contact" />
+                <motion.h2
+                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, y: -100 }}
+                    transition={{ duration: 0.5 }}
+                    className="text-center text-4xl"
+                >
+                    Get in Touch
+                </motion.h2>
+            </div>
             <div className="text-center tracking-tighter">
                 <motion.p 
                     whileInView={{ opacity: 1, x: 0 }}
@@ -30,31 +34,31 @@ const Contact = () => {
                 >
                     {CONTACT.phoneNo}
                 </motion.p>
-                <a href={`mailto:${CONTACT.email}`} className="border-b">
+                <a href={`mailto:${CONTACT.email}`} className="border-b border-cyan-400/40 text-cyan-300 hover:text-cyan-100 transition-colors">
                     {CONTACT.email}
                 </a>
             </div>
 
             <div className="flex flex-shrink-0 items-center">
             </div>
-            <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+            <div className="m-8 flex items-center justify-center gap-4 text-2xl text-neutral-300">
                 {/* LinkedIn Icon with Link */}
-                <a href="https://www.linkedin.com/in/dulara-rathnayake/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/dulara-rathnayake/" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-cyan-400">
                     <FaLinkedin />
                 </a>
-                
+
                 {/* GitHub Icon with Link */}
-                <a href="https://github.com/Dulara2001" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Dulara2001" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-cyan-400">
                     <FaGithub />
                 </a>
 
                 {/* Instagram Icon with Link */}
-                <a href="https://www.instagram.com/smartslides.ds/profilecard/?igsh=MWRlendsdjdtYWo0MA==" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/smartslides.ds/profilecard/?igsh=MWRlendsdjdtYWo0MA==" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-cyan-400">
                     <FaInstagram />
                 </a>
 
                 {/* Youtube Icon with Link */}
-                <a href="https://www.youtube.com/@AIWistara" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/@AIWistara" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-cyan-400">
                     <FaYoutube />
                 </a>
             </div>

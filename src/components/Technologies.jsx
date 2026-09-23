@@ -17,6 +17,7 @@ import { SiDocker } from "react-icons/si";
 import { SiGooglecloud } from "react-icons/si";
 
 import { motion } from "framer-motion";
+import SectionTag from "./SectionTag";
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -33,14 +34,17 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
     return (
-        <div id="technologies" className="border-b Oborder-neutral-800 pb-24">
-            <motion.h2 
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: -100 }}
-                transition={{ duration: 1.5 }}
-                className="my-20 text-center text-4xl">
-                Technologies
-            </motion.h2>
+        <div id="technologies" className="border-b border-neutral-800 pb-24">
+            <div className="my-20">
+                <SectionTag index="03" label="technologies" />
+                <motion.h2
+                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, y: -100 }}
+                    transition={{ duration: 1.5 }}
+                    className="text-center text-4xl">
+                    Technologies
+                </motion.h2>
+            </div>
             <motion.div 
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -53,7 +57,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6"> {/* Adjusted padding */}
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan"> {/* Adjusted padding */}
                         <RiReactjsLine className="text-7xl text-cyan-400" />
                     </div>
                     <p className="text-center mt-2">React</p>
@@ -65,7 +69,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <DiPython className="text-7xl text-blue-400" />
                     </div>
                     <p className="text-center mt-2">Python</p>
@@ -77,7 +81,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <SiTensorflow className="text-7xl text-orange-400" />
                     </div>
                     <p className="text-center mt-2">TensorFlow</p>
@@ -89,7 +93,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <SiOpenai className="text-7xl text-blue-400" />
                     </div>
                     <p className="text-center mt-2">LLM</p>
@@ -101,7 +105,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <SiPytorch className="text-7xl text-orange-400" />
                     </div>
                     <p className="text-center mt-2">NLP</p>
@@ -113,7 +117,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <SiStreamlit className="text-7xl text-red-400" />
                     </div>
                     <p className="text-center mt-2">Streamlit</p>
@@ -125,7 +129,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <SiOpencv className="text-7xl text-blue-400" />
                     </div>
                     <p className="text-center mt-2">OpenCV</p>
@@ -137,7 +141,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <SiPowerbi className="text-7xl text-yellow-500" />
                     </div>
                     <p className="text-center mt-2">Power BI</p>
@@ -149,7 +153,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <FaCamera className="text-7xl text-yellow-500" />
                     </div>
                     <p className="text-center mt-2">YoLo</p>
@@ -161,7 +165,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <AiOutlineRobot className="text-7xl text-blue-400" />
                     </div>
                     <p className="text-center mt-2">Mediapipe</p>
@@ -173,7 +177,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <FaMicrochip className="text-7xl text-yellow-500" />
                     </div>
                     <p className="text-center mt-2">Iot</p>
@@ -185,7 +189,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <SiMicrosoftexcel className="text-7xl text-green-400" />
                     </div>
                     <p className="text-center mt-2">Excel</p>
@@ -198,7 +202,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <SiMysql className="text-7xl text-blue-400" />
                     </div>
                     <p className="text-center mt-2">SQL</p>
@@ -211,7 +215,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <SiOracle className="text-7xl text-red-500" />
                     </div>
                     <p className="text-center mt-2">oracle</p>
@@ -224,7 +228,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <SiDocker className="text-7xl text-blue-500" />
                     </div>
                     <p className="text-center mt-2">Docker</p>
@@ -238,7 +242,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="flex flex-col items-center">
-                    <div className="rounded-2xl border-2 border-neutral-200 p-6">
+                    <div className="rounded-2xl border-2 border-neutral-800 p-6 transition-all duration-300 hover:border-cyan-400/60 hover:glow-cyan">
                         <SiGooglecloud className="text-7xl text-orange-500" />
                     </div>
                     <p className="text-center mt-2">GCP</p>

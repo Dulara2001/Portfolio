@@ -1,34 +1,57 @@
 import aboutImg from "../assets/about.jpg";
 import { motion } from "framer-motion";
+import SectionTag from "./SectionTag";
 
 const About = () => {
     return (
         <div id="about" className="border-b border-neutral-900 pb-4">
-            <h2 className="my-20 text-center text-4xl">
-                About
-                <span className="text-neutral-500">Me</span>
-            </h2>
+            <div className="my-20">
+                <SectionTag index="02" label="about" />
+                <h2 className="text-center text-4xl">
+                    About
+                    <span className="bg-gradient-to-r from-cyan-300 to-sky-500 bg-clip-text text-transparent">Me</span>
+                </h2>
+            </div>
             <div className="flex justify-center items-center"> {/* Centering container */}
-                <motion.div 
-                    whileInView={{ opacity: 1, x: 0 }}
-                    initial={{ opacity: 0, x: 100 }}
-                    transition={{ duration: 0.5 }}
+                <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.3 }}
+                    variants={{
+                        hidden: {},
+                        visible: { transition: { staggerChildren: 0.15 } },
+                    }}
                     className="w-full lg:w-1/2"> {/* Adjusted width to make sure it's centered */}
-                    <p className="text-gray-300 mt-4">
-                        👋 Hi! I'm Dulara Rathnayake, Motivated AI/ML Engineer with hands-on industry experience in designing, fine-tuning, and deploying Large Language Models (LLMs), Retrieval Augmented Generation (RAG) systems, and computer vision pipelines. 
-                    </p>
-                    <p className="text-gray-300 mt-4">
-                        🔍  Proven ability to bridge research and production from model training and optimization to FastAPI-based backend integration and cloud deployment on GCP. 
-                    </p>
-                    <p className="text-gray-300 mt-4">
-                        🚀 Passionate about building intelligent systems that solve real-world problems, with a strong foundation in Python, deep learning frameworks, and MLOps practices. 
-                    </p>
-                    <p className="text-gray-300 mt-4">
+                    <motion.p
+                        variants={{ hidden: { opacity: 0, x: 40 }, visible: { opacity: 1, x: 0 } }}
+                        transition={{ duration: 0.5 }}
+                        className="text-gray-300 mt-4">
+                        👋 Hi! I'm Dulara Rathnayake, Motivated AI/ML Engineer with hands-on industry experience in designing, fine-tuning, and deploying Large Language Models (LLMs), Retrieval Augmented Generation (RAG) systems, and computer vision pipelines.
+                    </motion.p>
+                    <motion.p
+                        variants={{ hidden: { opacity: 0, x: 40 }, visible: { opacity: 1, x: 0 } }}
+                        transition={{ duration: 0.5 }}
+                        className="text-gray-300 mt-4">
+                        🔍  Proven ability to bridge research and production from model training and optimization to FastAPI-based backend integration and cloud deployment on GCP.
+                    </motion.p>
+                    <motion.p
+                        variants={{ hidden: { opacity: 0, x: 40 }, visible: { opacity: 1, x: 0 } }}
+                        transition={{ duration: 0.5 }}
+                        className="text-gray-300 mt-4">
+                        🚀 Passionate about building intelligent systems that solve real-world problems, with a strong foundation in Python, deep learning frameworks, and MLOps practices.
+                    </motion.p>
+                    <motion.p
+                        variants={{ hidden: { opacity: 0, x: 40 }, visible: { opacity: 1, x: 0 } }}
+                        transition={{ duration: 0.5 }}
+                        className="text-gray-300 mt-4">
                         🏀 Outside of academics, I have a great passion for basketball. The teamwork, strategy, and energy of the game inspire me, and I enjoy the balance it brings to my life.
-                    </p>
-                    <p className="text-gray-300 mt-4">
+                    </motion.p>
+                    <motion.p
+                        variants={{ hidden: { opacity: 0, x: 40 }, visible: { opacity: 1, x: 0 } }}
+                        transition={{ duration: 0.5 }}
+                        className="text-gray-300 mt-4">
                         💼 I'm always eager to connect with AI and Data Science professionals, exchange ideas, and explore new learning and collaboration opportunities. Let's connect and grow together! 🚀
-                    </p>
+                    </motion.p>
                 </motion.div>
             </div>
         </div>

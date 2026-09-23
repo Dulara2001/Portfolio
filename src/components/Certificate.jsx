@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from "framer-motion";
 import { CERTIFICATES } from "../constants";
+import SectionTag from "./SectionTag";
+import ScanFrame from "./ScanFrame";
+import ParallaxItem from "./ParallaxItem";
 
 const Certificate = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -17,30 +20,41 @@ const Certificate = () => {
 
   return (
     <div id="certificates" className="border-b border-neutral-900 pb-4 text-white flex flex-col items-center">
-      <motion.h2 
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: -100 }}
-        transition={{ duration: 0.5 }}
-        className="my-10 text-center text-4xl"
-      >
-        Certificates
-      </motion.h2>
-      
+      <div className="my-10 w-full">
+        <SectionTag index="07" label="certificates" />
+        <motion.h2
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 0.5 }}
+          className="text-center text-4xl"
+        >
+          Certificates
+        </motion.h2>
+      </div>
+
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 max-w-screen-lg w-full">
-        {CERTIFICATES.map((certificate) => (
-          <motion.div 
+        {CERTIFICATES.map((certificate, index) => (
+          <motion.div
             key={certificate.id}
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, delay: index * 0.1 }}
             whileHover={{ scale: 1.05 }}
             onClick={() => handleImageClick(certificate.image)}
             className="cursor-pointer flex justify-center"
           >
-            <img
-              src={certificate.image}
-              width={150}
-              height={150}
-              alt={certificate.title}
-              className="mb-6 rounded object-cover shadow-md"
-            />
+            <ParallaxItem strength={12 + (index % 3) * 10}>
+              <ScanFrame label={certificate.title} className="mb-6">
+                <img
+                  src={certificate.image}
+                  width={150}
+                  height={150}
+                  alt={certificate.title}
+                  className="rounded object-cover shadow-md ring-1 ring-cyan-500/20"
+                />
+              </ScanFrame>
+            </ParallaxItem>
           </motion.div>
         ))}
       </div>

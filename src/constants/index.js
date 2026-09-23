@@ -1,14 +1,3 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.png";
-import project6 from "../assets/projects/project-6.jpeg";
-import project7 from "../assets/projects/project-7.png";
-import project8 from "../assets/projects/project-8.jpg";
-import project9 from "../assets/projects/project-9.png";
-import project10 from "../assets/projects/project-10.jpeg";
-import project11 from "../assets/projects/project-11.jpeg";
 import Certificate1 from "../assets/certificates/certificate1.jpg";
 import Certificate2 from "../assets/certificates/certificate2.jpg";
 import Certificate3 from "../assets/certificates/certificate3.jpg";
@@ -62,65 +51,36 @@ export const RESEARCH = [
 
 export const PROJECTS = [
   {
-    title: "AI-Powered Travel Planner Agent",
-    image: project11,
+    title: "Multi-Camera Vision Analytics System",
+    icon: "camera",
     description:
-      "Designed to help tourists and travelers create personalized day trip itineraries for cities in Sri Lanka. Powered by advanced AI, this agent makes trip planning seamless, efficient, and fun!",
-    technologies: ["Groq", "Llama 3.3-70b", "Python", "Streamlit"],
-    link: "https://drive.google.com/file/d/1mAq5mLA3L6m2v64-T6Q5ACrUwrDY4TH3/view?usp=sharing"
+      "Real-time computer vision system connecting to multiple IP camera feeds via RTSP to detect and track people across cameras. Recognizes returning visitors using face embeddings and classifies demographic attributes in real time, publishing structured events over Kafka.",
+    technologies: ["YOLOv8", "ByteTrack", "InsightFace", "Milvus", "Kafka", "Docker"],
   },
   {
-    title: "Smart Weather Analysis Dashboard with chatbot",
-    image: project10,
+    title: "Automated Garment Measurement & QC System",
+    icon: "garment",
     description:
-      "The Smart Weather Analysis Dashboard is a comprehensive web application designed to provide historical weather data analysis, future weather predictions, and an interactive chatbot for answering weather-related queries.",
-    technologies: ["Prophet", "Plotly", "Open-Meteo","Pandas","NumPy", "Streamlit"],
-    link: "https://drive.google.com/file/d/1WSZyRoDpPAiFGICWjPh8ssmkM_bOyicr/view?usp=sharing"
+      "Computer vision system for apparel factories that measures garments from a single camera capture, detecting around 294 keypoints per garment and comparing results against customer size charts to deliver automated pass/fail quality checks.",
+    technologies: ["OpenCV", "ONNX Runtime", "U²-Net", "FastAPI", "PyWebview"],
   },
   {
-    title: "Financial Agent with PhiData",
-    image: project9,
+    title: "HNB Assurance AI Chat Assistant",
+    icon: "chat",
     description:
-      "AI-powered agents capable of retrieving financial data and performing web searches.Retrieves stock market data, analyst recommendations, fundamentals, and company news.Fetches relevant online information with source citations.",
-    technologies: ["PhiData", "GROQ", "DuckDuckGo","YFinance", "Streamlit"],
-    link: "https://drive.google.com/file/d/15xkA6xYzMHXn8nMoYgQAlRS30R57Gt3m/view?usp=sharing"
+      "Multilingual RAG-powered chatbot proof-of-concept for HNB Assurance that answers insurance product questions in English, Sinhala, and Tamil, with responses grounded in official documentation.",
+    technologies: ["FastAPI", "Google Gemini", "ChromaDB", "RAG", "Google ADK"],
   },
   {
-    title: "LLM application for interact with PDF",
-    image: project8,
+    title: "SimpleBooks AI Voice Assistant",
+    icon: "voice",
     description:
-      "LLM application to interact with multiple PDF documents. The system uses FAISS vector embeddings to index and retrieve information, allowing users to upload PDFs, ask questions, and get accurate answers quickly and efficiently.",
-    technologies: ["Google Gemini pro", "LangChain", "FAISS", "Streamlit"],
-    link: "https://drive.google.com/file/d/1YBuxinEQnDV8rLmrChhmdVIbwKQ3PcUT/view?usp=sharing"
-  },
-  {
-    title: "Email Generator Tool",
-    image: project5,
-    description:
-      "An innovative tool to streamline personalized cold email outreach. This tool is designed to help professionals and services companies connect with potential employers or clients more effectively.",
-    technologies: ["Llma", "LangChain", "GROQ", "Streamlit"],
-    link: "https://drive.google.com/file/d/121cdfG53rcnjJ_vE-zxiIdAyv6lwoLTO/view?usp=sharing"
-  },
-  {
-    title: "Diabetes Prediction System",
-    image: project4,
-    description:
-      "Used data mining and machine learning techniques, effectively selecting and cleaning the dataset to ensure accurate results.Designed a user-friendly software interface for easy interaction with the prediction system, enhancing its accessibility and usability.",
-    technologies: ["Tensorflow", "Streamlit", "MachineLearning", "DataMining"],
-    link: "https://drive.google.com/file/d/1m3UVSh-ypqR3s9hit5CMXomp0ffEmIb5/view?usp=sharing",
-    usedemolink:"https://diabetespredictionsystem-sliit-fdmproject.streamlit.app/"
-  },
-  {
-    title: "Chatbot for Online Customer Support in E-commerce",
-    image: project2,
-    description:
-      "Developed a custom framework for enhancing chatbot effectiveness tailored to a small clothing business.Led the development of a PyTorch-based model, enabling the chatbot to handle diverse client inquiries.",
-    technologies: ["Data Analytics", "Machine Learning", "Data Mining"],
-    link: "https://drive.google.com/file/d/1_RSQcLxkKVMpw2bAsT_-C6HBFVnHGAQp/view?usp=sharing"
+      "Real-time Sinhala voice assistant for SimpleBooks accounting software, using full-duplex streaming audio and retrieval-augmented generation to answer product questions conversationally.",
+    technologies: ["OpenAI Realtime API", "FastAPI", "WebSockets", "LangChain", "ChromaDB"],
   },
   {
     title: "Smart Home IoT System for Temperature Management",
-    image: project6,
+    icon: "iot",
     description:
       "smart home system that automatically manages indoor temperature based on the Heat Index (HI) calculated from real-time temperature and humidity data. The project involved integrating sensors for data collection, utilizing MQTT protocols for communication, and implementing an ARIMA model to predict historical and future HI values. ",
     technologies: ["Iot","Data Analytics", "Machine Learning", "Data Mining"],
@@ -128,21 +88,21 @@ export const PROJECTS = [
   },
   {
     title: "PowerBI Dashboard Design Project",
-    image: project1,
+    icon: "chart",
     description:
       "Developed interactive and visually engaging dashboard.Provided valuable insights for data-driven and decision-making. Incorporated a range of visualization, interactive filters and drill down features to present data.",
     technologies: ["Data Analytics", "PowerBI"],
     link:"https://github.com/Dulara2001/PowerBI-Projects.git"
   },
-  
+
   {
     title: " Travel & Tourism Management System",
-    image: project7,
+    icon: "travel",
     description:
       "Travel and tourism management system to book tours from anywhere in the world through a single dynamic website that helps users to know all locations and tour details on a single website.this web application helps a tourist who is planning to travel to which places he will travel, whether there are accommodation facilities around those places, whether they are safe, and which transport will be used as a solution for the journey.",
     technologies: ["MERN stack"],
   },
-  
+
 ];
 
 
